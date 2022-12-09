@@ -11,41 +11,42 @@ body {
 }
 /* drum section */
 .w {
-  background-image: url("https://i.imgur.com/nHrxcIB.png");
+  background-image: url("../imgs/w.png");
+  
 }
 .a {
-  background-image: url("https://i.imgur.com/6V1xamP.png");
+  background-image: url("../imgs/a.png");
 }
 
 .s {
-  background-image: url("https://i.imgur.com/iXxutZK.png");
+  background-image: url("../imgs/s.png");
 }
 
 .d {
-  background-image: url("https://i.imgur.com/P1qf4Yv.png");
+  background-image: url("../imgs/d.png");
 }
 
 .j {
-  background-image: url("https://i.imgur.com/G2ezFcS.png");
+  background-image: url("../imgs/j.png");
 }
 
 .k {
-  background-image: url("https://i.imgur.com/i3LhxWy.png");
+  background-image: url("../imgs/k.png");
 }
 
 .l {
-  background-image: url("https://i.imgur.com/sllx8ES.png");
+  background-image: url("../imgs/l.png");
 }
 .i {
-  background-image: url("https://i.imgur.com/G2ezFcS.png");
+  background-image: url("../imgs/i.png");
 }
 
 .o {
-  background-image: url("https://i.imgur.com/i3LhxWy.png");
+  background-image: url("../imgs/o.png");
 }
 
 .p {
-  background-image: url("https://i.imgur.com/sllx8ES.png");
+  background-image: url("../imgs/p.png");
 }
 .pressed {
   box-shadow: 0 3px 4px 0 #dbedf3;
