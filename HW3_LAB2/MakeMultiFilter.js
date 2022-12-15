@@ -36,11 +36,9 @@ function MakeMultiFilter(array) {
     return elem !== 3; // check if element is not equal to 3
   });
   
-  // Calling arrayFilterer1 with no filterCriteria should return the currentArray.
   var currentArray = arrayFilterer1();
-  console.log("currentArray", currentArray); // prints [1] since we filtered out 2 and 3
+  console.log("currentArray", currentArray); 
   
-  // Since arrayFilterer returns itself, calls can be chained
   function filterTwos(elem) {
     return elem !== 2;
   }
@@ -49,10 +47,8 @@ function MakeMultiFilter(array) {
   }
   var arrayFilterer2 = MakeMultiFilter([1, 2, 3]);
   var currentArray2 = arrayFilterer2(filterTwos)(filterThrees)();
-  console.log("currentArray2", currentArray2); // prints [1] since we filtered out 2 and 3
-  
-  // Multiple active filters at the same time
+  console.log("currentArray2", currentArray2); 
   var arrayFilterer3 = MakeMultiFilter([1, 2, 3]);
   var arrayFilterer4 = MakeMultiFilter([4, 5, 6]);
-  console.log(arrayFilterer3(filterTwos)()); // prints [1, 3]
-  console.log(arrayFilterer4(filterThrees)()); // prints [4, 5, 6]
+  console.log(arrayFilterer3(filterTwos)()); 
+  console.log(arrayFilterer4(filterThrees)()); 
